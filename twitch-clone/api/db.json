@@ -1,32 +1,22 @@
 {
   "streams": [
     {
-      "title": "Stream one",
-      "description": "1",
+      "title": "Stream1",
+      "description": "Stream1",
+      "userId": "100350292995983171115",
       "id": 1
     },
     {
-      "title": "Stream two",
-      "description": "2",
+      "title": "Stream2",
+      "description": "Stream2",
+      "userId": "100350292995983171115",
       "id": 2
     },
     {
-      "title": "Stream 3",
-      "description": "Best Stream",
+      "title": "test",
+      "description": "test",
       "userId": "100350292995983171115",
       "id": 3
-    },
-    {
-      "title": "Stream Fourx",
-      "description": "Another one",
-      "userId": "100350292995983171115",
-      "id": 4
-    },
-    {
-      "title": "Me Streaming something",
-      "description": "Watch me refactor",
-      "userId": "100350292995983171115",
-      "id": 5
     }
   ]
 }

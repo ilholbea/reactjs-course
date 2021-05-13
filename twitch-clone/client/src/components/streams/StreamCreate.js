@@ -8,11 +8,15 @@ class StreamCreate extends React.Component {
     this.props.createStream(formValues);
   };
 
+  actions() {
+    return <button className="ui button primary">Save Stream</button>;
+  }
+
   render() {
     return (
       <div>
         <h3>Create a Stream</h3>
-        <StreamForm onSubmit={this.onSubmit} />
+        <StreamForm onSubmit={this.onSubmit} actions={this.actions} />
       </div>
     );
   }

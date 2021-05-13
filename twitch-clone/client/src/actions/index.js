@@ -1,11 +1,11 @@
 import {
-  SIGN_IN,
-  SIGN_OUT,
   CREATE_STREAM,
   DELETE_STREAM,
   EDIT_STREAM,
   FETCH_STREAM,
   FETCH_STREAMS,
+  SIGN_IN,
+  SIGN_OUT,
 } from './types';
 import streams from '../apis/streams';
 import history from '../history';
@@ -58,4 +58,6 @@ export const deleteStream = (id) => async (dispatch) => {
   await streams.delete(`/streams/${id}`);
 
   dispatch({ type: DELETE_STREAM, payload: id });
+  // Do programmatic navigation
+  history.push('/');
 };
